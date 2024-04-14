@@ -74,7 +74,7 @@ h4{
         font-size: 0.7rem;
     }
     img{
-        width: 60;
+        width: 40px;
         position: absolute;
         bottom: 5px;
         right: 2%;
@@ -110,4 +110,7 @@ h4{
          .card1, .card2, .card3, .card4{
             margin-top: 0;
          }
+        img{
+            width: 35px;
+        }
     }
