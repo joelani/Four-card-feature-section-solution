@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;  /* Centers all items within the grid */
+    color: hsl(234, 12%, 34%);
+    background-color: hsl(0, 0%, 98%);  /* Light gray background */
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+  }
+  
+.container{
+    padding: 0.1rem;
+    text-align: center;
+}
+.header{
+    padding:  1rem 4rem;
+}
+h1{
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h2{
+    font-size: 1.5rem; 
+}
+.header p{
+    font-size: 0.8rem;
+}
+
+.box{
+    border-radius: 0.75rem;
+    text-align: left;
+    position: relative;
+    box-shadow: 0px 10px 30px 1px hsl(225, 47%, 85%);
+
+}
+.cards{
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    box-shadow: 0px 8px 30px 1px hsl(212, 76%, 88%);
+    border-radius: 0.75rem;
+    padding: 2rem 4rem;
+    text-align: left;
+    margin: 1rem 0 2rem 0;
+}
+.cards p{
+    padding-bottom: 3rem;
+}
+.card1{
+    border-top: 7px solid hsl(212, 86%, 64%);
+    margin-top: 3rem;
+}
+.card2 {
+    border-top: 7px solid hsl(0, 78%, 62%);
+    margin-top: 3rem;
+}
+.card3{
+    border-top: 7px solid hsl(34, 97%, 64%);
+    
+    margin-top: 3rem;
+}
+.card4{
+    border-top: 7px solid hsl(180, 62%, 55%);
+    margin-top: 3rem;
+}
+h4{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.2rem 0.1px;
+}
+    .cards p{
+        font-size: 0.7rem;
+    }
+    img{
+        width: 60;
+        position: absolute;
+        bottom: 5px;
+        right: 2%;
+    }
+    
+    .attribution { 
+        margin-top: 3rem;
+        font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+    @media screen and (min-width:736px) {
+        .container{
+            max-width: 60vw;
+        }
+        .main{
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr;
+             gap: 10px;
+         }
+.box{
+    box-shadow: none;
+    padding: 0;/*
+    border: 3px solid green;*/
+    display: grid;
+    place-items: center;
+}
+         .cards{
+            background-color: hsl(0, 0%, 100%);
+            padding: 0 1rem;
+            height: max-content;
+            max-width: 200px;
+         }
+         .card1, .card2, .card3, .card4{
+            margin-top: 0;
+         }
+    }
